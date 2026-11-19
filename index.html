@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>❤️For SUSMITA❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="page1">
+      <div class="emoji">💌</div>
+      <h1>❤️ Hey SUSMITA ❤️</h1>
+      <p>I have something special for you!</p>
+      <p>Will you see it? 🥺</p>
+      <button onclick="showPage(2)">Click Here 💗</button>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="page" id="page2">
+      <div class="emoji">🥺❤️</div>
+      <h1>Please maan jao yaar!</h1>
+      <p>Next time nahi hoga.</p>
+      <p>Please forgive me. I am really sorry! 💗</p>
+      <button onclick="showPage(3)">Next Page ➜</button>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="page" id="page3">
+      <div class="emoji">🥹</div>
+      <h2>❤️ Please accept my sorry ❤️</h2>
+      <p>Will you forgive me?</p>
+
+      <button id="yesBtn" onclick="showPage(4)">
+        Accept ❤️
+      </button>
+
+      <div class="button-area" id="buttonArea">
+        <button id="noBtn">Not Accept 😞</button>
+      </div>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section class="page" id="page4">
+      <div class="emoji">🥰💖</div>
+      <h1>Sorry Accept!</h1>
+      <p>Thank you so much PUCHU!</p>
+      <p>You made me smile again. ❤️</p>
+      <button onclick="showPage(5)">Next ➜</button>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section class="page" id="page5">
+      <div class="emoji">📅💗</div>
+      <h2>Choose Our Date</h2>
+      <p>Which day shall we meet?</p>
+
+      <input type="date" id="dateInput">
+
+      <br>
+      <button onclick="goToTime()">Next ➜</button>
+    </section>
+
+    <!-- PAGE 6 -->
+    <section class="page" id="page6">
+      <div class="emoji">⏰💕</div>
+      <h2>Choose Our Time</h2>
+      <p>What time is perfect for you?</p>
+
+      <input type="time" id="timeInput">
+
+      <br>
+      <button onclick="goToFood()">Next ➜</button>
+    </section>
+
+    <!-- PAGE 7 -->
+    <section class="page" id="page7">
+      <div class="emoji">🍕🍔</div>
+      <h2>What Will You Eat?</h2>
+      <p>Choose your favourite food!</p>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="Burger 🍔">
+         Burger 🍔
+      </label>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="Panipuri 🧆">
+         Panipuri 🧆
+      </label>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="ice-cream 🍨">
+         ice-cream 🍨
+      </label>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="Sweet 🧉">
+         Sweet 🧉
+      </label>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="Pizza 🍕">
+         Pizza 🍕
+      </label>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="Momos 🥟">
+         Momos 🥟
+      </label>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="Chicken-Roll 🌯">
+         Chicken-Roll 🌯
+      </label>
+
+      <label class="choice">
+        <input type="checkbox" name="food" value="French Fries 🍟">
+         French Fries 🍟
+      </label>
+
+      <button onclick="finish()">Next ➜</button>
+    </section>
+
+    <!-- PAGE 8 -->
+    <section class="page" id="page8">
+      <div class="emoji">💞🌹💞</div>
+
+      <div class="final">
+        I LOVE YOU<br>
+       ❤️ SUSMITA ❤️
+      </div>
+
+      <p>This is my golden time</p>
+      <p>Forever and Always! 🥰</p>
+
+
+      <div class="emoji">❤️</div>
+      <p class="small">💗 💗 💗 💗 💗 💗 💗 💗 💗</p>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
